@@ -1,0 +1,12 @@
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.int}
+    lease-expiration-duration-in-seconds: 2
+    lease-renewal-interval-in-seconds: 1
+  client:
+    service-url:
+      defaultZone: http://eureka-server-proj21/eureka
+      
+
+ 
