@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/newtonmn/config-server-repo.git            application:    name: Config-Server-proj21
+          uri: https://github.com/newtonmn/config-server-repo.git            application:    name: config-server-proj21
           
 server:  port: 8101
 
